@@ -1,0 +1,44 @@
+---
+title: Ansys System Coupling for developers
+description:    
+---
+
+## Overview
+
+Ansys System Coupling™ physics solver connection software solves multiphysics problems by connecting multiple coupling participants (physics solvers) together to perform the coupled analysis. For more information, see Ansys System Coupling.
+
+The implementation of a System Coupling participant library within a given application enables that application to become a coupling participant. A coupling participant can be connected to any other coupling participant to exchange the solution data with that participant within the context of a coupled analysis.
+
+Furthermore, the coupling participant can use the same library to transfer the data across non-conformal mesh interfaces in-memory, without connecting to other coupling participants.
+
+## OS and supported languages
+
+System Coupling participant libraries are available for Windows and Linux in:
+
+-C (from V89)
+-C++ (from V11)
+-Python (from 3.10)
+-Fortran (from v2003)
+
+## Documentation
+
+<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+  <Columns cols={2}>
+     <Card
+      title="System Coupling participant library"
+      icon="layers"
+      iconType="light"
+      href="/docs/system-coupling/system-coupling-api/index"
+      cta="View docs"
+    >
+  Build your interface to connect to the System Coupling solver and perform the transfer of solution data between non-conformal meshes.
+    </Card>
+  </Columns>
+
+</div>
+
+
+
+
+
+

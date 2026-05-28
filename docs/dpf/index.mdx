@@ -1,0 +1,60 @@
+---
+title: Ansys Data Processing Framework (DPF) for developers
+description:    
+---
+
+## Overview
+
+Ansys Data Processing Framework™(DPF) provides reusable operators that allow you to access and transform simulation data coming from different Ansys and third-party result files. These operators are computation libraries that can be extended with custom libraries.
+
+You have multiple options for interfacing with the DPF framework:
+
+-Via APIs for building your client in C, C++, or Python (with open source libraries).
+-Via the dedicated IronPython/C# scripting interface provided by the Ansys Mechanical application.
+
+The DPF framework allows you to extend its capabilities by exposing your product capabilities as native operators. You can use these custom operators within Mechanical or other Ansys applications that support the DPF framework. Plus, you can access these operators remotely via gRPC from Python/C#/C++ client APIs, without having to learn gRPC or any of these languages.
+
+To use the DPF APIs, you need to install a DPF server on your machine. The Ansys Unified Installer includes major releases of the DPF server by default, requiring no extra selection. You can find beta releases on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
+
+
+
+## OS and supported languages
+
+DPF libraries are available for Windows and Linux in:
+
+-C/C++
+-C#
+-IronPython
+-Python (open source)
+
+## Documentation
+
+<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+  <Columns cols={2}>
+     <Card
+      title="DPF Onboarding"
+      icon="layers"
+      iconType="light"
+      href="/docs/dpf/dpf-onboarding/index"
+      cta="View docs"
+    >
+    Start here to learn how to use DPF and understand how to make the most of the resources available on this page. It will help you get up and running quickly.    
+    </Card>
+    <Card
+      title="DPF Framework"
+      icon="globe"
+      iconType="light"
+      href="/docs/dpf/dpf-framework/index"
+      cta="View docs"
+    >
+    Explore the DPF framework with detailed specifications for all operators in the official Ansys plugins. This guide supports API integration and advanced usage, and includes a changelog to track the latest updates.     
+    </Card>
+  </Columns>
+
+</div>
+
+
+
+
+
+

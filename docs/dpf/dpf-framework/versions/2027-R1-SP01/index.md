@@ -1,3 +1,9 @@
+---
+title: DPF Framework documentation
+description: Ansys developer portal — documentation, APIs, and community resources.
+---
+
+
 # Introduction
 
 This documentation provides a comprehensive guide of the DPF framework as well as all DPF operators available in Ansys-made DPF plugins.
