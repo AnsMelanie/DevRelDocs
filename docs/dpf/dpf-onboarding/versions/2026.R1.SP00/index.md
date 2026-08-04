@@ -2,11 +2,10 @@
 title: "Introduction"
 ---
 
-Hello!!
-
 **DPF onboarding** is for anyone new to the Data Processing Framework (DPF). It provides the foundational knowledge you need to get started—the basics before you move on to advanced topics—and you can follow it step by step even with no prior DPF experience.
 
 ## Total time commitment
+
 **Approximately 1.5 to 2 hours** to complete all three chapters of DPF onboarding.
 
 These files do not contain exhaustive content; much of the text is still under development.
@@ -16,6 +15,7 @@ These files do not contain exhaustive content; much of the text is still under d
 DPF onboarding is organized into three chapters. Follow them in order for a logical progression from understanding DPF to setting it up and using it with your data.
 
 ## DPF overview (15–20 minutes)
+
 In this chapter you learn what DPF is, what problems it solves, and why it exists.
 
 **Why do we start with this section**
@@ -28,11 +28,10 @@ Once you know what DPF is, install the server and client, configure licensing, a
 
 ## DPF data fundamentals (45–60 minutes)
 
-With a working environment, you explore how data is modeled in DPF, how it is loaded, and how you process it with operators and workflows. 
-This chapter introduces the core features along with the essential concepts and vocabulary.
+With a working environment, you explore how data is modeled in DPF, how it is loaded, and how you process it with operators and workflows. This chapter introduces the core features along with the essential concepts and vocabulary.
 
 <link rel="stylesheet" href="styles/nav-buttons.css" />
-<div class="nav-footer">
-<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/index" class="nav-btn nav-btn-next">Get started →</a>
-</div>
 
+<div class="nav-footer">
+  <a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/index" class="nav-btn nav-btn-next">Get started →</a>
+</div>
